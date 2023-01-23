@@ -1,0 +1,142 @@
+
+
+body {
+    background-color: #433C3B;
+    color: #ffc955;
+}
+
+#contenedor {
+    display: flex;
+    /* flex-flow: column; */
+    align-items: stretch;
+    flex-direction: column;
+    background-color: #433C3B;
+    gap: 30px;
+    padding:10px;
+}
+.contentContenido {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #9E9A9A;
+    border-radius: 10px;
+}
+
+.fotoBienvenida {
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    background-color: #9E9A9A;
+    border-radius: 10px;
+    
+
+}
+.imagenHeader {
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+.containerForm {
+    background-color: #5D6D7E;
+    padding: 20px;
+    margin: 2%;
+    border: 1px solid #433C3B;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 24%);
+}
+.formContent {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+.contentInput {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+}
+
+.labelForm {
+    font-size: 19px;
+}
+
+.inputForm {
+    padding: 5px;
+    font-size: 19px;
+    border-width: 1px;
+    border-color: #CCCCCC;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-style: solid;
+    border-radius: 0px;
+    box-shadow: 0px 0px 5px rgba(66,66,66,.75);
+    text-shadow: 0px 0px 5px rgba(66,66,66,.75);
+}
+
+.inputForm:focus {
+    outline: none;
+}
+table {
+    width: 50%;
+}
+.fotosCasa {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-size: cover;
+}
+.logo {
+    width: 150px;
+    height:150px;
+    border-radius: 5px;
+}
+.titulo {
+    width: 290px;
+    height: 150px;
+    border-radius: 5px;
+}
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;  
+}
+.duplaHeader {
+    padding: 10px;
+
+}
+.enviar {
+    box-shadow: inset 0px 1px 0px 0px #ffffff;
+    background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+    background-color: #ffffff;
+    border-radius: 6px;
+    border: 1px solid #b0aeb0;
+    display: inline-block;
+    cursor: pointer;
+    color: #666666;
+    font-family: Arial;
+    font-size: 19px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ffffff;
+}
+
+.enviar:hover {
+    background: linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+    background-color: #f6f6f6;
+}
+
+.enviar:active {
+    position: relative;
+    top: 1px;
+}
+
+.carousel-inner {
+    position: relative ;
+    width: 100% ;
+    overflow: hidden ;
+    border-radius: 10px !important;
+}
